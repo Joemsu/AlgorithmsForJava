@@ -88,7 +88,7 @@ public class MaxPriorityQueues<T extends Comparable<T>> {
      * 将最底部的元素元素与顶部的元素交换，然后下沉
      */
     public T delMax() {
-        //从根节点获得最大元素
+        //从根结点获得最大元素
         T max = pq[1];
         swap(1, N--);
         //防止对象游离
